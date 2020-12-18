@@ -3,7 +3,21 @@ You can check [Live Demo here](https://tik-toe-toy-online-d475f.firebaseapp.com)
 
 All the commands to build, deploy push and commit are in `package.json`.
 
+This project is sette up with two main technologies:
+ - [ReactJS](https://reactjs.org/)
+ - [Firebase](https://firebase.google.com/)
+ 
+ To work width dates we are using `moment-timezone` npm library.
+ `styled-compontns` is a perfect tool to deal with CSS in react and change style dynamicly.
+
 # ReactJS + Firebase
+
+First, this is a `npm` project, so you need to have several command line tools:
+ - [`node` and `npm`](https://treehouse.github.io/installation-guides/mac/node-mac.html)
+ - [`yarn`](https://classic.yarnpkg.com/en/docs/install/#mac-stable)
+ - [`create-react-app`](https://create-react-app.dev/docs/getting-started/)
+ - [`firebase-tools`](https://firebase.google.com/docs/cli#macos)
+
 
 ## React
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -28,7 +42,15 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Time perfomers
+
+This scripts are just useful tools to make whole process of developing and deploying faster.
 
 ### `yarn define`
 
@@ -46,38 +68,8 @@ Creating a commit with name in format DD.MM.YYYY🌿HH:mm and pushing it.
 
 Compilation of `define` + `build` + `deploy` + `commit`.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-
 ## Firebase
 All firebase configs are in `src/constants/config.js`.
 
-To initialize firebase - you need to have a `firebase-tools` (https://firebase.google.com/docs/cli#macos).
-We are using both firebase and surge.sh hosting.
+To initialize firebase - you need to have a [`firebase-tools`](https://firebase.google.com/docs/cli#macos).
+We are using firebase hosting for this particular project.
